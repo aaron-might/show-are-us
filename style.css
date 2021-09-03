@@ -27,3 +27,14 @@ a {
     right: 1rem;
     font-size: 2rem;
 }
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+.logo h2 {
+    margin: 0;
+}
+.logo p {
+    margin: 0;
+}
