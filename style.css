@@ -82,5 +82,22 @@ a {
 .slide a {
     background-color:#40020E;
     padding: 1rem 2rem;
-    font-size: ;
+    font-size:1.5rem;
+}
+
+.arrow {
+    background-color: transparent;
+    transform:translateY(-50%);
+    border:0;
+    position: absolute;
+    top:50%;
+    font-size:3rem;
+    color:black;
+    opacity: 0.5;
+}
+.left-arrow {
+    left: 2rem;
+}
+.right-arrow {
+    right: 2rem;
 }
