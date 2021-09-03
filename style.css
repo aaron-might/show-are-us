@@ -48,7 +48,7 @@ a {
 .carousel-container {
     overflow:hidden;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 10rem;
     height: 80vh;
     width: 100vw;
     overflow: hidden;
@@ -72,4 +72,15 @@ a {
     height: 400px;
     width: 400px;
     object-fit: cover;
+}
+.slide h1 {
+    color: white;
+    font-size: 4rem;
+    margin-top: -2rem;
+
+}
+.slide a {
+    background-color:#40020E;
+    padding: 1rem 2rem;
+    font-size: ;
 }
