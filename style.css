@@ -16,25 +16,57 @@ a {
 }
 .hamburger {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
+    top: 2rem;
+    left: 2rem;
     font-size: 2rem;
 }
 
 .phone {
     position:fixed;
-    top: 1rem;
-    right: 1rem;
+    top: 2rem;
+    right: 2rem;
     font-size: 2rem;
 }
 .logo {
     text-align: center;
     color: white;
-    font-size: 2rem;
+    margin: 2rem 0;
+    font-size: 1.7rem;
+}
+.logo i{
+    font-size: 3rem;
 }
 .logo h2 {
     margin: 0;
 }
 .logo p {
     margin: 0;
+    color:#40020e;
+    font-weight: bold;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 100vw;
+}
+.carousel {
+    display:flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(0);
+
+}
+.slide {
+    /* max-height: 400px; */
+    width: 100vw;
+    /* position: absolute; */
+    text-align: center;
+    background-color:purple;
+
+}
+.slide img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
 }
