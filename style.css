@@ -46,6 +46,7 @@ a {
 }
 
 .carousel-container {
+    overflow:hidden;
     overflow: hidden;
     width: 100vw;
 }
@@ -54,7 +55,7 @@ a {
     position: absolute;
     left: 0;
     top: 0;
-    transform: translate(0);
+    transform: translateX(0);
 
 }
 .slide {
@@ -62,8 +63,7 @@ a {
     width: 100vw;
     /* position: absolute; */
     text-align: center;
-    background-color:purple;
-
+    /* background-color:purple; */
 }
 .slide img{
     height: 400px;
